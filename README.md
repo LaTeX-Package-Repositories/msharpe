@@ -34,7 +34,6 @@ and, if necessary, the sources will be obtained from CTAN and added to this repo
 | [garamondx](https://www.ctan.org/pkg/garamondx) | "Expert"-like extensions to URW Garamond, and maths italic. |
 | [gelasiomath](https://www.ctan.org/pkg/gelasiomath) | Math and small cap additions to Gelasio fonts. |
 | [heuristica](https://www.ctan.org/pkg/heuristica) | Fonts extending Utopia, with LaTeX support files. |
-| [inconsolata](https://www.ctan.org/pkg/inconsolata) | A monospaced font, with support files for use with TeX. |
 | [LibertineGC](https://www.ctan.org/pkg/libertinegc) | Libertine add-on to support Greek and Cyrillic. |
 | [LibertinusT1Math](https://www.ctan.org/pkg/libertinust1math) | A Type 1 font and LaTeX support for Libertinus Math. |
 | [mathalpha](https://www.ctan.org/pkg/mathalpha) | General package for loading maths alphabets in LaTeX. |
@@ -49,7 +48,6 @@ and, if necessary, the sources will be obtained from CTAN and added to this repo
 | [PST-bspline](https://www.ctan.org/pkg/pst-bspline) | Draw cubic Bspline curves and interpolations. |
 | [pstdoc](https://www.ctan.org/pkg/pstdoc) | A tool for PSTricks documentation. |
 | [PST-layout](https://www.ctan.org/pkg/pst-layout) | Page layout macros based on PSTricks packages. |
-| [PST-node](https://www.ctan.org/pkg/pst-node) | Nodes and node connections in PSTricks. |
 | [ptmsc](https://www.ctan.org/pkg/ptmsc) | Addon to the newtx package. |
 | [pxtxalfa](https://www.ctan.org/pkg/pxtxalfa) | Virtual maths alphabets based on pxfonts and txfonts. |
 | [rsfso](https://www.ctan.org/pkg/rsfso) | A mathematical calligraphic font based on rsfs. |
@@ -63,3 +61,9 @@ and, if necessary, the sources will be obtained from CTAN and added to this repo
 | [wasy-type1](https://www.ctan.org/pkg/wasy-type1) | Type 1 versions of wasy fonts. |
 | [XCharter](https://www.ctan.org/pkg/xcharter) | Extension of Bitstream Charter fonts. |
 | [zlmtt](https://www.ctan.org/pkg/zlmtt) | Use Latin Modern Typewriter fonts. |
+
+
+<!-- existing active maintainers
+| [inconsolata](https://www.ctan.org/pkg/inconsolata) | A monospaced font, with support files for use with TeX. |
+| [PST-node](https://www.ctan.org/pkg/pst-node) | Nodes and node connections in PSTricks. |
+-->
