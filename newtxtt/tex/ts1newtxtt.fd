@@ -1,5 +1,7 @@
 \ProvidesFile{ts1newtxtt.fd}
-	[2024/03/03]
+	[2026-11-20]
+
+\input{newtxtt-ts1-unicode.tex}
 
 \expandafter\ifx\csname newtxtt@scale\endcsname\relax
     \let\newtxtt@@scale\@empty
@@ -23,7 +25,7 @@
      <->ssub * newtxtt/m/n%
 }{}
 \DeclareFontShape{TS1}{newtxtt}{m}{sl}{	%slanted
-     <-> \newtxtt@@scale newtcxttsl\newtxtt@@fig%
+     <-> \newtxtt@@scale newtcxsl\newtxtt@@fig%
 }{}
 \DeclareFontShape{TS1}{newtxtt}{m}{it}{	%italic
      <->ssub * newtxtt/m/sl%
@@ -38,7 +40,7 @@
      <->ssub * newtxtt/b/n%
 }{}
 \DeclareFontShape{TS1}{newtxtt}{b}{sl}{	%bold slanted
-     <-> \newtxtt@@scale newtcxbttsl\newtxtt@@fig%
+     <-> \newtxtt@@scale newtcxbsl\newtxtt@@fig%
 }{}
 \DeclareFontShape{TS1}{newtxtt}{b}{it}{	%bold italic
      <->ssub * newtxtt/b/sl%
