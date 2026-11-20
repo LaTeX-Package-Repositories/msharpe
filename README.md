@@ -1,6 +1,6 @@
 # msharpe
 
-Maintaining Michael Sharpe's LaTeX packages
+## Maintaining Michael Sharpe's LaTeX packages
 
 
 The following packages originally by Michael Sharpe are maintained
@@ -10,7 +10,7 @@ Issues may be reported at
 
 https://github.com/LaTeX-Package-Repositories/msharpe/issues
 
-and if necessary, the sources will be obtained from CTAN and added to this repository.
+and, if necessary, the sources will be obtained from CTAN and added to this repository.
 
 
 | Package | Description |
