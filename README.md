@@ -1,6 +1,6 @@
 # msharpe
 
-Maintainingg Michael Sharpe's LaTeX packages
+Maintaining Michael Sharpe's LaTeX packages
 
 
 The following packages originally by Michael Sharpe are maintained
@@ -10,7 +10,7 @@ Issues may be reported at
 
 https://github.com/LaTeX-Package-Repositories/msharpe/issues
 
-and if necessary the sources will be obtained from CTAN and added to this repository.
+and if necessary, the sources will be obtained from CTAN and added to this repository.
 
 
 | Package | Description |
@@ -63,5 +63,3 @@ and if necessary the sources will be obtained from CTAN and added to this reposi
 | [wasy-type1](https://www.ctan.org/pkg/wasy-type1) | Type 1 versions of wasy fonts. |
 | [XCharter](https://www.ctan.org/pkg/xcharter) | Extension of Bitstream Charter fonts. |
 | [zlmtt](https://www.ctan.org/pkg/zlmtt) | Use Latin Modern Typewriter fonts. |
-     |
-  
