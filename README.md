@@ -42,7 +42,7 @@ and, if necessary, the sources will be obtained from CTAN and added to this repo
 | [New PX](https://www.ctan.org/pkg/newpx) | | Alternative uses of the PX fonts, with improved metrics. |
 | [New TX](https://www.ctan.org/pkg/newtx) | | Alternative uses of the TX fonts, with improved metrics. |
 | [newtxsf](https://www.ctan.org/pkg/newtxsf) | | Sans-math fonts for use with newtx. |
-| [newtxtt](https://www.ctan.org/pkg/newtxtt) | [newtxtt](https://github.com/LaTeX-Package-Repositories/msharpe/newtxtt/) | Enhancement of typewriter fonts from newtx. |
+| [newtxtt](https://www.ctan.org/pkg/newtxtt) | [newtxtt](https://github.com/LaTeX-Package-Repositories/msharpe/tree/main/newtxtt) | Enhancement of typewriter fonts from newtx. |
 | [nimbus15](https://www.ctan.org/pkg/nimbus15) | | Support files for Nimbus 2015 Core fonts. |
 | [notomath](https://www.ctan.org/pkg/notomath) | | Math support for Noto fonts. |
 | [PST-bspline](https://www.ctan.org/pkg/pst-bspline) | | Draw cubic Bspline curves and interpolations. |
