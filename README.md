@@ -19,7 +19,7 @@ and, if necessary, the sources will be obtained from CTAN and added to this repo
 | [arrayjob](https://www.ctan.org/pkg/arrayjob) | | Array data structures for LaTeX. |
 | [arrayjobx](https://www.ctan.org/pkg/arrayjobx) | | Array data structures for LaTeX. |
 | [baskervaldx](https://www.ctan.org/pkg/baskervaldx) | | Extension and modification of BaskervaldADF with LaTeX support. |
-| [BaskervilleF](https://www.ctan.org/pkg/baskervillef) | | Fry’s Baskerville look-alike, with math support. |
+| [BaskervilleF](https://www.ctan.org/pkg/baskervillef) | [baskervillef](https://github.com/LaTeX-Package-Repositories/msharpe/tree/main/baskervillef) | Fry’s Baskerville look-alike, with math support. |
 | [bboldx](https://www.ctan.org/pkg/bboldx) | | Extension of the bbold package with a Blackboard Bold alphabet. |
 | [bickham](https://www.ctan.org/pkg/bickham) | | Virtual fonts for Adobe Bickham Script Pro. |
 | [boondox](https://www.ctan.org/pkg/boondox) | | Mathematical alphabets derived from the STIX fonts. |
