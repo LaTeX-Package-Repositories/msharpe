@@ -1,0 +1,38 @@
+#!/bin/bash
+
+set -e
+
+
+echo "Building pdf in newtxtt/doc with TEXINPUTS=\".:..//:\" ..."
+
+cd ./doc
+
+#
+export TEXINPUTS=".:..//:"
+export TFMFONTS=".:..//:"
+export T1FONTS=".:..//:"
+export ENCFONTS=".:..//:"
+export TEXFONTMAPS=".:..//:"
+
+kpsewhich newtcxtte.tfm
+
+latexmk -halt-on-error -interaction=batchmode -pdf newtxtt-doc.tex
+
+echo "... done"
+
+cd ../..
+
+echo $FILES
+zip -r newtxtt-ctan.zip \
+newtxtt/README \
+newtxtt/doc/newtxtt-1060-2026-11-20.md \
+newtxtt/doc/newtxtt-doc.pdf \
+newtxtt/doc/newtxtt-doc.tex \
+newtxtt/enc \
+newtxtt/map \
+newtxtt/tex \
+newtxtt/tfm \
+newtxtt/type1
+
+mv newtxtt-ctan.zip newtxtt
+
