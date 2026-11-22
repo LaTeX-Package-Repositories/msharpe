@@ -1,0 +1,42 @@
+#!/bin/bash
+
+set -e
+
+
+echo "running tests  TEXINPUTS=\".:..//:\" ..."
+
+cd ./doc
+
+#
+export TEXINPUTS=".:..//:"
+export TFMFONTS=".:..//:"
+export T1FONTS=".:..//:"
+export ENCFONTS=".:..//:"
+export TEXFONTMAPS=".:..//:"
+
+
+
+
+
+latexmk -halt-on-error -interaction=batchmode -pdf baskervillef-doc.tex
+
+echo "... done"
+
+cd ../..
+
+echo $FILES
+zip -r baskervillef-ctan.zip \
+baskervillef/README \
+baskervillef/doc/baskervillef-doc.pdf \
+baskervillef/doc/baskervillef-doc.tex \
+baskervillef/doc/*.txt \
+baskervillef/enc \
+baskervillef/map \
+baskervillef/opentype \
+baskervillef/tex \
+baskervillef/tfm \
+baskervillef/type1 \
+baskervillef/vf
+
+mv baskervillef-ctan.zip baskervillef
+
