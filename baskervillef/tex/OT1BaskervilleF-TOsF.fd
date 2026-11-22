@@ -16,7 +16,7 @@
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{m}{n}{
-      <-> \BaskervilleF@@scale BaskervilleF-Regular-tosf-ot1G
+      <-> \BaskervilleF@@scale BaskervilleF-Regular-tosf-ot1
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{m}{sw}{
@@ -28,7 +28,7 @@
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{m}{it}{
-      <-> \BaskervilleF@@scale BaskervilleF-Italic-tosf-ot1G
+      <-> \BaskervilleF@@scale BaskervilleF-Italic-tosf-ot1
 }{}
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{m}{sl}{
       <-> \BaskervilleF@@scale BaskervilleF-Italic-tlf-th-ot1
@@ -43,7 +43,7 @@
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{b}{it}{
-      <-> \BaskervilleF@@scale BaskervilleF-BoldItalic-tosf-ot1G
+      <-> \BaskervilleF@@scale BaskervilleF-BoldItalic-tosf-ot1
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{b}{nw}{
@@ -51,7 +51,7 @@
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{b}{n}{
-      <-> \BaskervilleF@@scale BaskervilleF-Bold-tosf-ot1G
+      <-> \BaskervilleF@@scale BaskervilleF-Bold-tosf-ot1
 }{}
 
 \DeclareFontShape{OT1}{BaskervilleF-TOsF}{b}{sw}{

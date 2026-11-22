@@ -14,7 +14,7 @@
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{m}{n}{
-      <-> \ntxmath@scaled BaskervilleF-Regular-tlf-ot1G
+      <-> \ntxmath@scaled BaskervilleF-Regular-tlf-ot1
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{m}{scit}{
@@ -30,7 +30,7 @@
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{m}{it}{
-      <-> \ntxmath@scaled BaskervilleF-Italic-tlf-ot1G
+      <-> \ntxmath@scaled BaskervilleF-Italic-tlf-ot1
 }{}
 \DeclareFontShape{OT1}{minbaskervillef}{m}{sl}{
       <-> \ntxmath@scaled BaskervilleF-Italic-tlf-th-ot1
@@ -45,7 +45,7 @@
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{b}{it}{
-      <-> \ntxmath@scaled BaskervilleF-BoldItalic-tlf-ot1G
+      <-> \ntxmath@scaled BaskervilleF-BoldItalic-tlf-ot1
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{b}{sc}{
@@ -53,7 +53,7 @@
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{b}{n}{
-      <-> \ntxmath@scaled BaskervilleF-Bold-tlf-ot1G
+      <-> \ntxmath@scaled BaskervilleF-Bold-tlf-ot1
 }{}
 
 \DeclareFontShape{OT1}{minbaskervillef}{b}{sw}{
