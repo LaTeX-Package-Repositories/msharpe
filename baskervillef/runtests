@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set -e
+
+
+echo "running tests  TEXINPUTS=\".:..//:\" ..."
+
+cd ./testfiles
+
+export TEXINPUTS=".:..//:"
+export TFMFONTS=".:..//:"
+export T1FONTS=".:..//:"
+export ENCFONTS=".:..//:"
+export TEXFONTMAPS=".:..//:"
+
+
+for i in *.tex
+do
+    pdflatex $i
+    pdflatex $i
+done
