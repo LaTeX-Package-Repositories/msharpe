@@ -18,10 +18,12 @@
 \useosf % use oldstyle figures except in math
 \usepackage[cal=boondoxo]{mathalfa}% less slanted than STIX cal
 \usepackage{bm}
+\usepackage{hyperref}
 %SetFonts
 \usepackage{url}\usepackage{fonttable}
 \title{The BaskervilleF Font Package}
-\author{Michael Sharpe}
+\author{Michael Sharpe\thanks{As of November 20, 2026, the package
+maintainance moved to\\\url{https://github.com/LaTeX-Package-Repositories/msharpe/issues}.}}
 \date{\today}  % Activate to display a given date or no date
 
 \begin{document}
@@ -31,10 +33,31 @@ Baskerville revivals. (Storm Baskerville, a very expensive commercial font, seem
 
 The F at the end of BaskervilleF is supposed to suggest both ``Free'' and ``Fry's''. It is  a reworking of \emph{LibreBaskerville}, which I would guess to be the result (at least in Regular and Italic) of  tracings of the high resolution scans of ATF Baskerville (American Type Foundry, 1941), and on the other, an attempt to provide a version of Baskerville more like the traditional version used for print rather than a web font. 
 
-BaskervilleF provides {\tt Roman}, {\tt Bold}, {\tt Italic} and {\tt BoldItalic}. The Regular, Italic and Bold glyphs were derived from the corresponding LibreBaskerville glyphs, mostly hollowing out the interiors to increase the contrast (ratio of thickest to thinnest stroke widths) while keeping to the extent possible the side bearings, so that the good kerning tables in {\tt Roman}, {\tt Bold} and {\tt Italic} would not require too much reworking. As of version 1.044, the kerning ables have been extended to cover, at least in regular style, kerning pairs of the form {\tt*(} and {\tt)*}, in order to allow parentheses to be inserted in words without (un)forseen spacing side effects. 
+BaskervilleF provides {\tt Roman}, {\tt Bold}, {\tt Italic} and {\tt
+  BoldItalic}. The Regular, Italic and Bold glyphs were derived from
+the corresponding LibreBaskerville glyphs, mostly hollowing out the
+interiors to increase the contrast (ratio of thickest to thinnest
+stroke widths) while keeping to the extent possible the side bearings,
+so that the good kerning tables in {\tt Roman}, {\tt Bold} and {\tt
+  Italic} would not require too much reworking. As of version 1.044,
+the kerning ables have been extended to cover, at least in regular
+style, kerning pairs of the form {\tt*(} and {\tt)*}, in order to
+allow parentheses to be inserted in words without (un)forseen spacing
+side effects.
 
 \textsc{Package Features:}\\
-In addition to the encodings {\tt OT1}, {\tt T1}, {\tt TS1}, {\tt LY1} in general use by Western European (and some Eastern European) scripts,  All allow a choice from four figure styles---{\tt TLF} (tabular lining figures, monospaced and uppercase), {\tt LF} (proportional lining figures, uppercase), {\tt TOsF} (tabular oldstyle figures, monospaced and lowercase) and {\tt OsF} (proportional oldstyle figures, lowercase).  \textsc{Small Caps} are offered in all styles, along with additional figure styles---superiors and denominators. These features are available from either \verb|fontspec| or from [pdf]\LaTeX. In \LaTeX, you access these through the macros \verb|\textsu| and  \verb|\textde|, or through their font-switching equivalents \verb|\sufigures| and  \verb|\defigures|. For example:
+In addition to the encodings {\tt OT1}, {\tt T1}, {\tt TS1}, {\tt LY1}
+in general use by Western European (and some Eastern European)
+scripts, All allow a choice from four figure styles---{\tt TLF}
+(tabular lining figures, monospaced and uppercase), {\tt LF}
+(proportional lining figures, uppercase), {\tt TOsF} (tabular oldstyle
+figures, monospaced and lowercase) and {\tt OsF} (proportional
+oldstyle figures, lowercase).  \textsc{Small Caps} are offered in all
+styles, along with additional figure styles---superiors and
+denominators. These features are available from either \verb|fontspec|
+or from [pdf]\LaTeX. In \LaTeX, you access these through the macros
+\verb|\textsu| and \verb|\textde|, or through their font-switching
+equivalents \verb|\sufigures| and \verb|\defigures|. For example:
 \begin{itemize}
 \item
 \verb|M\textsu{lle} Dupont| and \verb|M{\sufigures lle} Dupont| both produce M\textsu{lle} Dupont.

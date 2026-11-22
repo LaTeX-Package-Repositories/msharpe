@@ -14,12 +14,16 @@ part of all distributions of LaTeX version 2003/12/01 or later. Those files and
 LaTeX support file baskervillef.sty are
 
   Copyright (c) 2016---2025 Michael Sharpe
+  Copyright (c) 2026        Michael Sharpe, LaTeX Project,
 
 Files provided "as is", with no warranties.
 
 The support files are provided in encodings OT1, T1, TS1 and LY1 for users of Western scripts.
 
-Current version: 1.052 2025-01-06
+Current version: 1.053 2026-11-22
+
+Changes in version 1.053
+Fixes to ligatures in OT1 encoding and corrections to OT1 fd files.
 
 Changes in version 1.052
 Added missing fd files t1minbaskervillef.fd, ot1minbaskerville.fd and ly1minbaskerville.fd, needed only for mathematical processing using newtx. (Newtx.sty contains changes to properly support math in baskerville.)
@@ -83,7 +87,8 @@ Changes in version 1.00a
 1. File omlzbami was omitted inadvertently from version 1.00. Now included.
 2. A couple of minor fixes in math metrics.
 
-Please send comments and bug reports or suggestions for improvement to
+Please send comments and bug reports or suggestions for improvement by opening an issue at 
 
-msharpe at ucsd dot edu
+https://github.com/LaTeX-Package-Repositories/msharpe/issues
+
 
