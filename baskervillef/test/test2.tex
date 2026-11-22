@@ -1,0 +1,40 @@
+% Source - https://tex.stackexchange.com/q/757545
+% Posted by Xilef11
+% Retrieved 2026-11-22, License - CC BY-SA 4.0
+
+\documentclass{article}
+
+\pdfmapfile{-BaskervilleF.map}
+\pdfmapfile{+BaskervilleF.map}
+
+\renewcommand\rmdefault{BaskervilleF-TLF}
+\SetMathAlphabet{\mathrm}{normal} {OT1}{BaskervilleF-TLF}{m}{n}
+\SetMathAlphabet{\mathit}{normal} {OT1}{BaskervilleF-TLF}{m}{it}
+\SetMathAlphabet{\mathbf}{normal} {OT1}{BaskervilleF-TLF}{b}{n}
+\SetMathAlphabet{\mathrm}{bold}   {OT1}{BaskervilleF-TLF}{b}{n}
+\SetMathAlphabet{\mathit}{bold}   {OT1}{BaskervilleF-TLF}{b}{it}
+\SetMathAlphabet{\mathbf}{bold}   {OT1}{BaskervilleF-TLF}{b}{n}
+\SetSymbolFont{operators}{normal} {OT1}{BaskervilleF-TLF}{m}{n}
+\SetSymbolFont{operators}{bold}   {OT1}{BaskervilleF-TLF}{b}{n}
+
+
+\begin{document}
+normal: diff 
+
+math: $diff \sin$
+
+it: \textit{diff}
+
+mathit: $\mathit{diff}$
+
+\bfseries\mathversion{bold}
+
+normal: diff 
+
+math: $diff \sin$
+
+it: \textit{diff}
+
+mathit: $\mathit{diff}$
+\end{document}
+
