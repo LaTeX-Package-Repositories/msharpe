@@ -2,6 +2,7 @@
 
 set -e
 
+git status .
 
 echo "running tests  TEXINPUTS=\".:..//:\" ..."
 
@@ -13,9 +14,6 @@ export TFMFONTS=".:..//:"
 export T1FONTS=".:..//:"
 export ENCFONTS=".:..//:"
 export TEXFONTMAPS=".:..//:"
-
-
-
 
 
 latexmk -halt-on-error -interaction=batchmode -pdf baskervillef-doc.tex

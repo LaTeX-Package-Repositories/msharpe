@@ -2,6 +2,7 @@
 
 set -e
 
+git status .
 
 echo "Building pdf in newtxtt/doc with TEXINPUTS=\".:..//:\" ..."
 
