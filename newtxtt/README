@@ -65,9 +65,9 @@ Corrected a bug in the T1 fd files from v1.05 that showed up only under some spe
 
 Changes in version 1.05
 1. Added a Knuthian zero more like a rounded oblong. Set this using the option zerostyle=e.
-2. Changed figures in small caps fonts to oldstyle. There are five styles for oldstyle zero, conrolled just as for lining figures.
+2. Changed figures in small caps fonts to oldstyle. There are five styles for oldstyle zero, controlled just as for lining figures.
 3. Added a straightquotes option whose effect is to change the quote style from curly to straight.
-4. Added options ttdefault, ttzdefault whose effects are to change the default text font to \ttfamily, \ttzfamily repectively.
+4. Added options ttdefault, ttzdefault whose effects are to change the default text font to \ttfamily, \ttzfamily respectively.
  
 Changes in version 1.03
 Corrected an error in t1newtxttz.fd, thanks to J-F Burnol.

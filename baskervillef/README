@@ -49,7 +49,7 @@ Changes in version 1.045
 Corrected a number of repeated lines in BaskervilleF.map.
 
 Changes in version 1.044
-1. Extended kerning table (regular only) to handle parentheses embedded in works, like (un)forseen.
+1. Extended kerning table (regular only) to handle parentheses embedded in works, like (un)foreseen.
 2. Corrected the spacing of math comma and period under option baskervillef to newtxmath.
 
 Changes in version 1.043
