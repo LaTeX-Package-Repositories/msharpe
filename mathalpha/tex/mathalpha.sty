@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
-\def\mathalphaVersion{1.145}
-\def\mathalphaDate{2025/01/17}
+\def\mathalphaVersion{1.155}
+\def\mathalphaDate{2026/11/24}
 \ProvidesPackage{mathalpha}[\mathalphaDate\space-\space\mathalphaVersion
  mathalpha (License LPPL) Michael Sharpe]
 \message{`mathalpha' v\mathalphaVersion, \mathalphaDate, a renaming of mathalfa (msharpe)}
@@ -210,7 +210,7 @@ frak: lucida, esstix, mathpi^^J
     \DeclareMathAlphabet{\mathbfbb} {U}{BOONDOX-ds}{b}{n}
   \fi
 \or %px
-  %\usepackage[scaled=\mathalfa@bbscaled]{px-ds} % has dotlessi, j
+  %\usepackage[scaled=\mathalfa@bbrawscaled]{px-ds} % has dotlessi, j
   \DeclareFontFamily{U}{px-math-ds}{\skewchar \font =45}% double-struck
   \DeclareFontShape{U}{px-math-ds}{m}{n}{
    <-> \mathalfa@bbscaled  pxr-ds}{}
@@ -223,13 +223,13 @@ frak: lucida, esstix, mathpi^^J
   \fi
 \or %tx
   \ifmathalfa@bbb\mathalpha@boldError{tx}{bb}\fi
-  \usepackage[scaled=\mathalfa@bbscaled]{tx-ds} % has dotlessi, j
+  \usepackage[scaled=\mathalfa@bbrawscaled]{tx-ds} % has dotlessi, j
 %  \DeclareFontFamily{U}{tx-math-ds}{\skewchar \font =127}% double-struck
 %  \DeclareFontShape{U}{tx-math-ds}{m}{n}{
 %   <-> \mathalfa@bbscaled  txr-ds}{}
 %  \DeclareMathAlphabet{\mathbb}{U}{tx-math-ds}{m}{n}
 \or %txof
-  %\usepackage[scaled=\mathalfa@bbscaled]{tx-of}
+  %\usepackage[scaled=\mathalfa@bbrawscaled]{tx-of}
   \DeclareFontFamily{U}{tx-math-of}{\skewchar \font =45}% openface
   \DeclareFontShape{U}{tx-math-of}{m}{n}{
    <-> \mathalfa@bbscaled  txr-of}{}
@@ -431,17 +431,8 @@ frak: lucida, esstix, mathpi^^J
     \DeclareMathAlphabet{\mathbfbb} {U}{ncmbbk}{b}{n}
   \fi
 
-
-
 \fi
 %%%%%%%%%%%%%%%%%% END \mathbb
-
-
-
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%% START \mathcal
@@ -718,12 +709,6 @@ frak: lucida, esstix, mathpi^^J
 %%%%%%%%%%%%%%%%%% END \mathcal
 
 
-
-
-
-
-
-
 %%%%%%%%%%%%%%%%%% START \mathfrak
 %
 \ifcase\mathalfa@fraknr\relax% item 0 of {euler, lucida, mathpi, mma, mt, esstix, boondox, pxtx}
@@ -820,9 +805,6 @@ frak: lucida, esstix, mathpi^^J
   \fi
 \fi
 %%%%%%%%%%%%%%%%%% END \mathfrak
-
-
-
 
 
 %%%%%%%%%%%%%%%%%% START \mathscr
