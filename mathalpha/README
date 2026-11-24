@@ -19,9 +19,9 @@ It mostly bypasses the usual fd and sty files used to load these
 alphabets in order to allow each to be scaled independently and 
 without silently quantizing the sizes.
 
-Current version: 1.155 2026-11-24
+Current version: 1.150 2026-11-24
 
-Version 1.155 fixes https://github.com/LaTeX-Package-Repositories/msharpe/issues/5 (typo).
+Version 1.150 fixes https://github.com/LaTeX-Package-Repositories/msharpe/issues/5 (typo).
 
 Version 1.145 adds a new Blackboard Bold alphabet derived from NewCMMath Blackboard Bold.
 (Version 1.144 was not released.)
