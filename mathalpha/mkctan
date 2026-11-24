@@ -1,0 +1,37 @@
+#!/usr/bin/bash
+
+set -e
+
+git status .
+
+echo "running tests  TEXINPUTS=\".:..//:\" ..."
+
+cd ./doc
+
+#
+export TEXINPUTS=".:..//:"
+export TFMFONTS=".:..//:"
+export T1FONTS=".:..//:"
+export ENCFONTS=".:..//:"
+export TEXFONTMAPS=".:..//:"
+export VFFONTS=".:..//:"
+
+
+latexmk -halt-on-error -interaction=batchmode -pdf mathalpha-doc.tex
+
+echo "... done"
+
+cd ../..
+
+echo $FILES
+zip -r mathalpha-ctan.zip \
+mathalpha/README \
+mathalpha/doc/mathalpha-doc.pdf \
+mathalpha/doc/mathalpha-doc.tex \
+mathalpha/map \
+mathalpha/tex \
+mathalpha/tfm \
+mathalpha/type1 
+
+mv mathalpha-ctan.zip mathalpha
+
