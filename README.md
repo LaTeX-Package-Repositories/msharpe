@@ -36,7 +36,7 @@ and, if necessary, the sources will be obtained from CTAN and added to this repo
 | [heuristica](https://www.ctan.org/pkg/heuristica) | | Fonts extending Utopia, with LaTeX support files. |
 | [LibertineGC](https://www.ctan.org/pkg/libertinegc) | | Libertine add-on to support Greek and Cyrillic. |
 | [LibertinusT1Math](https://www.ctan.org/pkg/libertinust1math) | | A Type 1 font and LaTeX support for Libertinus Math. |
-| [mathalpha](https://www.ctan.org/pkg/mathalpha) | | General package for loading maths alphabets in LaTeX. |
+| [mathalpha](https://www.ctan.org/pkg/mathalpha) | [mathalpha](https://github.com/LaTeX-Package-Repositories/msharpe/tree/main/mathalpha) | General package for loading maths alphabets in LaTeX. |
 | [minion2newtx](https://www.ctan.org/pkg/minion2newtx) | | Enable use of Minion Pro with newtx. |
 | [montserrat](https://www.ctan.org/pkg/montserrat) | | LaTeX support for the Montserrat sans-serif font. |
 | [New PX](https://www.ctan.org/pkg/newpx) | | Alternative uses of the PX fonts, with improved metrics. |
